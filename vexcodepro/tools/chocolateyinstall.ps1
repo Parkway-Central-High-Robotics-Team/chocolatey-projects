@@ -1,14 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://content.vexrobotics.com/vexcode/v5code/VEXcodeProV5_2_0_5.exe'
-$url64 		= 'https://content.vexrobotics.com/vexcode/v5code/VEXcodeProV5_2_0_5.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
-  url64bit      = $url64
 
   softwareName  = 'VEXcode Pro*'
 
