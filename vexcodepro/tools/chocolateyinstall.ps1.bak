@@ -5,7 +5,7 @@ $url        = 'https://content.vexrobotics.com/vexcode/v5code/VEXcodeProV5_2_0_5
 $cert = Get-ChildItem Cert:\CurrentUser\TrustedPublisher -Recurse | Where-Object { $_.Thumbprint -eq '548132fd02be43149355d0596c256c0fd4c5c578' }
 if (!$cert) {
     $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-    Start-ChocolateyProcessAsAdmin "certutil -addstore 'TrustedPublisher' '$toolsPath\VEXrobotics.cer'"
+    Start-ChocolateyProcessAsAdmin "certutil -addstore 'TrustedPublisher' '$toolsPath\VEX Robotics Inc..cer'"
 }
 
 $packageArgs = @{
