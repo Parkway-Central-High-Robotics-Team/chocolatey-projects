@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>VEXcode Pro</title>
     <authors>Innovation First, Inc.</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://github.com/targed/chocolatey-projects</projectUrl>
+    <projectUrl>https://www.vexrobotics.com/vexcode</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/targed/chocolatey-projects@main/vexcodepro/image_proxy%20(1).png</iconUrl>
     <copyright>2022 VEXcode Innovation First International, Inc.</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
