@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = 'https://content.vexrobotics.com/vexcode/v5blocks/VEXcodeV5-20220829.exe'
 
-$cert = Get-ChildItem Cert:\CurrentUser\TrustedPublisher -Recurse | Where-Object { $_.Thumbprint -eq '548132fd02be43149355d0596c256c0fd4c5c578' }
+$cert = Get-ChildItem Cert:\CurrentUser\TrustedPublisher -Recurse | Where-Object { $_.Thumbprint -eq 'f69c63f8bbfd55e3f7b326320f990c85ea937a89' }
 if (!$cert) {
   $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
   Start-ChocolateyProcessAsAdmin "certutil -addstore 'TrustedPublisher' '$toolsPath\VEXrobotics.cer'"
