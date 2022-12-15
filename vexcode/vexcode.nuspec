@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Innovation First, Inc.</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.vexrobotics.com/vexcode</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/targed/chocolatey-projects@main/vexcode/VEXcodeV%-icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/targed/chocolatey-projects@main/vexcode/VEXcodeV5-icon.png</iconUrl>
     <copyright>2022 VEXcode Innovation First International, Inc.</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl> -->
